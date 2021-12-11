@@ -1,0 +1,15 @@
+name: visualization
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=1.9
+  - numpy=1.21.4
+  - pandas=1.3
+  - streamlit=1.2.0
+  - pillow=8.4
+  - pip
+  - pip:
+    - streamlit-image-comparison==0.0.2

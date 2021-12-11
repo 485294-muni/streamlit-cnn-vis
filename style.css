@@ -1,0 +1,13 @@
+hr {
+    margin: 1em 0;
+    border: 0;
+}
+
+[data-testid="stSidebar"][aria-expanded="true"] > div:first-child {
+    width: 30vw;
+}
+
+[data-testid="stSidebar"][aria-expanded="false"] > div:first-child {
+    width: 30vw;
+    margin-left: -30vw;
+}
