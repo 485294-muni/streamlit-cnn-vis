@@ -1,3 +1,6 @@
+# Simple CNN attribution method
+You can see demo online [here](https://share.streamlit.io/485294-muni/streamlit-cnn-vis/main/app.py). The source repository is on [github](https://github.com/485294-muni/streamlit-cnn-vis).
+
 ## Background
 Neural networks are very black-boxish by nature. This makes them powerful, but also hard to debug. It might be benefitial to visualize what is the basis of their decisions. 
 
@@ -24,12 +27,12 @@ efficientnet convolutional neural network trained on Imagenet dataset.
 Note that Imagenet dataset does not contain a category for people, so
 the model will not recognize a person.
 
+# Installation
+You can run the app by installing the dependencies specified in `requirements.text`,
+and then executing `streamlit run app.py` in shell.
+
 Running the app for the first time can take some time because it downloads
 the NN weights from the internet (it is cached for subsequent runs though).
-
-You can run the app by installing the dependencies specified in `requirements.text`,
-and then executing `streamlit run app.py` in shell. Or you can just visit a website:
-TODO
 
 
 ## Project structure
