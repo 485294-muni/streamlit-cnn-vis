@@ -27,8 +27,8 @@ the model will not recognize a person.
 Running the app for the first time can take some time because it downloads
 the NN weights from the internet (it is cached for subsequent runs though).
 
-You can run the app by installing the conda environment specified in `environment.yaml`, activating it and and then executing `streamlit run app.py` in shell. Or
-you can just visit a website:
+You can run the app by installing the dependencies specified in `requirements.text`,
+and then executing `streamlit run app.py` in shell. Or you can just visit a website:
 TODO
 
 
@@ -36,8 +36,8 @@ TODO
 ```
 - app.py
     = main entry point
-- environment.yml
-    = conda env definition
+- requirements.txt
+    = project dependencies
 - toy.ipynb
     = auxiliary notebook for experimenting and playing around
 - classes.txt

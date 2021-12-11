@@ -1,0 +1,8 @@
+-f https://download.pytorch.org/whl/torch_stable.html 
+torch==1.10;sys_platform == 'darwin'
+torch==1.10+cpu;sys_platform == 'linux'
+numpy==1.21.4
+pandas==1.3
+streamlit==1.2.0
+pillow==8.4
+streamlit-image-comparison==0.0.2
